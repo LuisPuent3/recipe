@@ -1,0 +1,113 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+* body {
+  background: #222831;
+}
+* body .contenedorMain {
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+  font-family: "Signika Negative", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  padding: 22px;
+  width: 1000px;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 52px;
+  font-weight: 300;
+  color: #fcf22f;
+}
+
+.main {
+  max-width: 1000px;
+  width: 90%;
+  border-bottom: 1px solid rgba(124, 124, 124, 0.2588235294);
+  margin: 10px auto;
+}
+.main .contenidoCentral {
+  display: flex;
+}
+.main .contenidoCentral .imgMain {
+  width: 70%;
+}
+.main .contenidoCentral .imgMain img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+.main .contenidoCentral .datos {
+  width: 50%;
+  background: #ffffff;
+  border-radius: 0 15px 15px 0;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.144);
+  justify-content: center;
+}
+.imagenes .imagen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  background: #444444;
+  margin: 20px;
+  width: 200px;
+  opacity: 0.6;
+}
+.imagenes .imagen:hover {
+  background: #555555;
+  opacity: 1;
+}
+.imagenes .imagen img {
+  width: 100%;
+  border-radius: 5px;
+}
+.imagenes .boton {
+  display: flex;
+  justify-content: center;
+}
+.imagenes input {
+  border-style: none;
+  border-radius: 5px;
+  background: #555555;
+  border: 2 px solid #4717f6;
+  color: #e7dfdd;
+  width: 80%;
+  font-size: 10px;
+}
+.imagenes input:hover {
+  background: #4717f6;
+  cursor: pointer;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  transition-duration: 0.4s;
+}
+
+.datos {
+  padding: 0px;
+}
+.datos .titulo {
+  font-size: 24px;
+  color: #d92027;
+  text-align: center;
+  padding: 10px;
+}
+.datos .descripcion {
+  color: #ffffff;
+  padding: 5px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
+}
+.datos .descripcion .remarcar {
+  color: #20d9d0;
+}/*# sourceMappingURL=estilos.css.map */
